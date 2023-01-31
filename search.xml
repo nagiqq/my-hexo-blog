@@ -4,9 +4,51 @@
   
     
     <entry>
-      <title>Nuxt3 -- Props &amp; Emit</title>
+      <title>小工具筆記 -- vue3 頁籤</title>
+      <link href="/2023/01/31/23013107/"/>
+      <url>/2023/01/31/23013107/</url>
+      
+        <content type="html"><![CDATA[<h2 id="Abstract-文章摘要"><a href="#Abstract-文章摘要" class="headerlink" title="Abstract 文章摘要"></a>Abstract 文章摘要</h2>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Vue3 -- Props &amp; Emit</title>
       <link href="/2023/01/22/23012206/"/>
       <url>/2023/01/22/23012206/</url>
+      
+        <content type="html"><![CDATA[<h2 id="Abstract-文章摘要"><a href="#Abstract-文章摘要" class="headerlink" title="Abstract 文章摘要"></a>Abstract 文章摘要</h2><blockquote><p>Props in, Emit out</p></blockquote><h2 id="Introduction-前言"><a href="#Introduction-前言" class="headerlink" title="Introduction 前言"></a>Introduction 前言</h2><p>要將程式碼寫得乾淨漂亮又好維護，將每個功能、區塊拆分成一塊塊的component是很重要的，在每個頁面重複利用component，省去複製貼上的雜工，有需要修改的時候也只需要修改一次元件就完事了。理想上，一個.vue檔案不超過200行是最好的，簡潔的程式碼也會增加易讀性(要記得養成寫註釋說明的好習慣，未來才好回憶component間的資料流向)。</p><p>拆成component的過程中，slot跟props是很重要的技能，slot，較常是用在layout的場合下，layout留下<code>&lt;slot name=&quot;header&quot;&gt;&lt;/slot&gt;</code>的洞(像鑲嵌寶石的插槽)，留給子元件用template 的方式<code>&lt;template #header&gt;&lt;/template&gt;</code> 插入自己的值，例如以下範例的<code>mylayout.vue </code> 就留給不同頁面插入自己的頁面名稱。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">// mylayout.vue</span><br><span class="line">&lt;template&gt;</span><br><span class="line">&lt;div&gt;hello this is &lt;slot name=&quot;header&quot;/&gt; page&lt;/div&gt;</span><br><span class="line">&lt;/template&gt;</span><br><span class="line"></span><br><span class="line">// aboutView.vue</span><br><span class="line">&lt;template&gt;</span><br><span class="line">&lt;main&gt;</span><br><span class="line">&lt;my-layout&gt;</span><br><span class="line">&lt;template #header&gt;ABOUT&lt;/template&gt;</span><br><span class="line">&lt;/my-layout&gt;</span><br><span class="line">&lt;/main&gt;</span><br><span class="line">&lt;/template&gt;</span><br></pre></td></tr></table></figure><hr><p>props則為較彈性的動態資料插入，以”拆成小塊的功能子元件”component為思考主體，向上從父元件接收資料(第2節 – [props in](#Props in))、傳遞資料回去(第3節 – [emit out](#Emit out))，或是也可以再往下傳遞資料給下一個component(第4節 – <a href="#%E5%B5%8C%E5%A5%97">嵌套</a>)。當component中有動態的資料需要傳遞時，例如：</p><ul><li>傳入store取得的陣列資料</li><li>class 名稱需要動態切換</li><li>或是需要先將資料傳入子元件，經過處理後再傳回父元件的場合</li></ul><p>就很適合善用props來讓程式碼拆成更小的component來使用。</p><h2 id="2-Props-in"><a href="#2-Props-in" class="headerlink" title="2. Props in"></a>2. Props in</h2><h2 id="3-Emit-out"><a href="#3-Emit-out" class="headerlink" title="3. Emit out"></a>3. Emit out</h2><h2 id="4-嵌套"><a href="#4-嵌套" class="headerlink" title="4. 嵌套"></a>4. 嵌套</h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> 程式語言 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Nuxt3 </tag>
+            
+            <tag> front-end </tag>
+            
+            <tag> Vue3 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Nuxt3 -- Eslint and Prettier</title>
+      <link href="/2023/01/22/23012205/"/>
+      <url>/2023/01/22/23012205/</url>
       
         <content type="html"><![CDATA[<h2 id="Abstract-文章摘要"><a href="#Abstract-文章摘要" class="headerlink" title="Abstract 文章摘要"></a>Abstract 文章摘要</h2>]]></content>
       
