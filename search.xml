@@ -4,13 +4,71 @@
   
     
     <entry>
-      <title>小工具筆記 -- vue3 頁籤</title>
+      <title>/ 寫程式第一年心得小記</title>
+      <link href="/2023/02/02/23020209/"/>
+      <url>/2023/02/02/23020209/</url>
+      
+        <content type="html"><![CDATA[<h2 id="Abstract-文章摘要"><a href="#Abstract-文章摘要" class="headerlink" title="Abstract 文章摘要"></a>Abstract 文章摘要</h2><ol><li>寫程式是21歲前最不可能職業排名前三(其他兩名是電機跟運動)</li><li>可以提供給你滿滿的成就感，想起幾個月前連npm都run不起來的我</li><li>只要願意嘗試，永遠都有可能做得到(也不用像刺繡一樣，還得先買一堆工具才能開始，還要煩惱刺完要放哪，只需要打開筆電就可以開始嘗試)</li><li>雖然我是個人生座右銘是”screen free，experience the world”(幾年前還是，能手寫筆記就不要用電腦打字的人)，但是在程式的世界真得是無國界的，常常幫你回答問題的人，來自於一個這輩子不會去的國家、城市</li><li>雖然不確定我會寫程式多久，但目前還是在寫ing</li></ol>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>/ 小工具筆記 -- vue3 頁籤</title>
       <link href="/2023/01/31/23013107/"/>
       <url>/2023/01/31/23013107/</url>
       
         <content type="html"><![CDATA[<h2 id="Abstract-文章摘要"><a href="#Abstract-文章摘要" class="headerlink" title="Abstract 文章摘要"></a>Abstract 文章摘要</h2>]]></content>
       
       
+      <categories>
+          
+          <category> 程式語言 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 小工具 </tag>
+            
+            <tag> vue3 </tag>
+            
+            <tag> nuxt3 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>/ 小工具筆記 -- window.scrollTo</title>
+      <link href="/2023/01/31/23020208/"/>
+      <url>/2023/01/31/23020208/</url>
+      
+        <content type="html"><![CDATA[<h2 id="Abstract-文章摘要"><a href="#Abstract-文章摘要" class="headerlink" title="Abstract 文章摘要"></a>Abstract 文章摘要</h2><ol><li>雖然簡單幾行，但是卡了很久，趕緊做個小記錄</li><li>router.afterEach等生命週期，官方文件沒有寫，是一層層回去找原碼的</li><li>scroll-bahavior:smoooth (bootstrap)</li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 程式語言 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 小工具 </tag>
+            
+            <tag> vue3 </tag>
+            
+            <tag> nuxt3 </tag>
+            
+        </tags>
       
     </entry>
     
@@ -46,7 +104,7 @@
     
     
     <entry>
-      <title>Nuxt3 -- Eslint and Prettier</title>
+      <title>/ Nuxt3 -- Eslint and Prettier</title>
       <link href="/2023/01/22/23012205/"/>
       <url>/2023/01/22/23012205/</url>
       
